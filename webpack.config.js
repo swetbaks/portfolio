@@ -31,6 +31,11 @@ module.exports = {
                     name : '[name].[ext]?[hash]',
                     limit : 20000
                 }
+            },
+            {
+                test : /\/js$/,
+                loader : 'babel-loader',
+                exclude : /node_modules/
             }
         ]
     },

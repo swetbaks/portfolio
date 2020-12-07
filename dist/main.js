@@ -1,6 +1,6 @@
 /*!
- * commitVersion : 040f516
- * Build Date : 2020-12-7 12:01:20
+ * commitVersion : 43dd3c6
+ * Build Date : 2020-12-7 14:14:58
  * Author : jeongkc
  *
  */
@@ -82,7 +82,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _port_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./port-style.css */ \"./src/port-style.css\");\n\r\n\r\nconsole.log(\"test\")\n\n//# sourceURL=webpack://portfolio-project/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _port_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./port-style.css */ \"./src/port-style.css\");\n\r\n\r\nconsole.log(\"test\")\r\nnew Promise();\n\n//# sourceURL=webpack://portfolio-project/./src/app.js?");
 
 /***/ })
 

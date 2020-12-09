@@ -4,16 +4,21 @@ const banner = require('./banner.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
     mode : 'development',
     entry : {
-        main : '/src/app.js'
+        main : '/src/main.js'
     },
     output : {
         publicPath : '',
         path : path.resolve('./dist'),
         filename : '[name].js'
+    },
+    devServer : {
+        overlay : true,
+        historyApiFallback: true
     },
     module : {
         rules : [
@@ -25,7 +30,18 @@ module.exports = {
                 ]
             },
             {
-                test : /\.(png|jpg|gif)$/,
+                test : /\.svg$/,
+                loader : 'svg-url-loader',
+                options : {
+                    encoding : 'base64'
+                }
+            },
+            {
+                test: /\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/,
+                use: ['file-loader']
+            },
+            {
+                test : /\.(png|jpg|gif|svg)$/,
                 loader : 'url-loader',
                 options : {
                     name : '[name].[ext]?[hash]',
@@ -36,6 +52,10 @@ module.exports = {
                 test : /\/js$/,
                 loader : 'babel-loader',
                 exclude : /node_modules/
+            },
+            {
+                test : /\.vue$/,
+                loader : 'vue-loader'
             }
         ]
     },
@@ -49,6 +69,7 @@ module.exports = {
             } : false,
             template : './src/index.html'
         }),
+        new VueLoaderPlugin(),
         new CleanWebpackPlugin(),
         ...(process.env.NODE_ENV === 'production' ?
         [new MiniCssExtractPlugin({filename : '[name].css'})] : [] )

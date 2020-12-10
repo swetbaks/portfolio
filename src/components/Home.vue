@@ -42,7 +42,7 @@ export default {
 	data() {
 		return {
 			pictures : {
-				pic1 : 'https://i.ibb.co/1JctJ8L/ed641bc589cd00c59673636999205736e.jpg'
+				pic1 : 'https://i.ibb.co/YhQ4kbW/eeetc00350000032.jpg'
 			}
 		}
 	}

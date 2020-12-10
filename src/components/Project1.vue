@@ -26,7 +26,7 @@
         </div>
 	</div>
 
-    <div>
+    <div id="sidebar">
 
 	</div>
 </div>
@@ -34,7 +34,6 @@
 </template>
 
 <script>
-
 
 export default {
 

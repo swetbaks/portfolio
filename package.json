@@ -12,11 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "core-js": "^2.6.12",
+    "echarts": "^5.0.0",
     "hooper": "^0.3.4",
     "vue": "^2.6.12",
-    "vue-chartjs": "^3.5.1",
-    "vue-router": "^3.4.9",
-    "vue-svg-charts": "0.0.6"
+    "vue-router": "^3.4.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",

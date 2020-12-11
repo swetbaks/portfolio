@@ -115,7 +115,7 @@ ul.style1 li
 	overflow: hidden;
 	display: block;
 	padding: 1.00em 0em;
-	border-top: 1px solid #D1CFCE;
+	border-top: 1px solid #ababab;
 }
 
 ul.style1 li:first-child
@@ -160,8 +160,8 @@ ul.style2
 
 ul.style2 li
 {
-	border-top: solid 1px #E5E5E5;
-	padding: 0.80em 0;
+	border-top: solid 1px #ababab;
+	padding: 0.60em 0;
 }
 
 ul.style2 li:first-child
@@ -198,7 +198,7 @@ ul.contact li span
 
 ul.contact li a
 {
-	color: #FFF;
+	color: #525252;
 }
 
 ul.contact li a:before
@@ -219,34 +219,6 @@ ul.contact li a.icon-dribbble:before { background: #C4376B;	}
 ul.contact li a.icon-tumblr:before { background: #31516A; }
 ul.contact li a.icon-rss:before { background: #F2600B; }
 
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
-
-.button
-{
-	display: inline-block;
-	padding: 1em 3em 1em 2em;
-	letter-spacing: 0.20em;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 0.90em;
-	color: #FFF;
-}
-
-.button:before
-{
-	display: inline-block;
-	background: #FFC31F;
-	margin-right: 1em;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 20px;
-	text-align: center;
-	color: #272925;
-}
 	
 /*********************************************************************************/
 /* Heading Titles                                                                */
@@ -264,12 +236,19 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	color: #323232;
 }
 
+.title h3
+{
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #323232;
+}
+
 .title .byline
 {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	color: #6F6F6F;
 }
 
@@ -397,6 +376,30 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	background-color: #F3F3F3;
 }
 
+input[type=text] {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #cccccc;
+   
+}
+
+button {
+	display : block;
+	box-sizing : border-box;
+	width : 100%;
+	margin : 15 px 0 15px 0;
+	padding : 10px 15px;
+	font-size: 14px;
+	line-height: 1.5;
+	border : 1px solid #cccccc;
+
+}
+
 /*********************************************************************************/
 /* Sidebar                                                                       */
 /*********************************************************************************/
@@ -416,11 +419,11 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #stwo-col h2
 {
 	display: block;
-	padding-bottom: 1.5em;
+	padding-bottom: 1.3em;
 	letter-spacing: 0.10em;
 	text-transform: uppercase;
-	font-size: 1.2em;
-	font-weight: 600;
+	font-size: 1.1em;
+	font-weight: 550;
 	color: #454445;
 }
 
@@ -435,6 +438,27 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	float: right;
 	width: 230px;
 }
+
+#stwo-col .sbox1 p
+{
+	font-size: 0.98em;
+}
+
+#stwo-col .sbox2 p 
+{
+	font-size: 0.98em;
+}
+
+#stwo-col .sbox1 p a
+{
+	font-size: 0.88em;
+}
+
+#stwo-col .sbox2 p a
+{
+	font-size: 0.88em;
+}
+
 
 /*********************************************************************************/
 /* Footer                                                                        */
@@ -535,11 +559,19 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	}
 	#sidebar{
 		max-width: 90%;
-		padding: 10px;
+		padding: 20px;
 		float: none;
 	}
 	ul.style1 li{
 	padding: 1.20em 0em;
-}
-
+	}
+	#stwo-col .sbox1{
+	float: none;
+	width: 300px;
+	}
+#stwo-col .sbox2{
+	padding-top: 30px;
+	float: none;
+	width: 300px;
+	}
 }

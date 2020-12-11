@@ -2,56 +2,52 @@
 
     <div id="page" class="container">
 
+        <div id="content">
+				<div class="title">
+					<h2>Contact Points</h2>
+					<span class="byline">현재 개발 중인 기능입니다.</span>
+				</div>
+
+		  <form v-on:submit="onsubmit">
+
+			<input v-on:submit.prevent type="text" id="name" name="name" autofocus placeholder="이름을 입력해 주세요.">
+			<input v-on:submit.prevent type="text" id="email" name="email" placeholder="이메일을 입력해 주세요.">
+			<input v-on:submit.prevent type="text" id="message" name="message" rows="10" placeholder="메시지를 입력해 주세요.">
+
+			<button>Send</button>
+
+ 		 </form>
+
+        </div>
+
 		<div id="sidebar">
-			<ul class="style1">
-				<li class="first">
-					<h3>엠포스 마케팅본부 프로</h3>
-					<p>
-						재직 기간 : 2019.06 ~ (재직중)
-					<br>담당 광고주 : LGU+, OK저축은행
-					<br>참여 TF : 현대카드 2021년 온라인마케팅 제안 TF, 우리카드 2020년 온라인마케팅 제안 TF
-					</p>
-				</li>
-				<li>
-					<h3>해커스교육그룹 공무원기획 마케팅 프로</h3>
-					<p>
-						재직 기간 : 2015.12 ~ 2019.06
-					<br>담당 브랜드 : 18개 브랜드 중 11개 브랜드 온라인광고 담당
-					<br>참여 프로젝트 : 2018년 공인중개사 코엑스 설명회, 2017년 해커스어학원 토스/오픽 10일 끝장반 TF, 2017년 해커스어학원 여름방학 무료예약 등 다수
-					</p>
-				</li>
-			</ul>
-		</div>
-		<div id="sidebar">
-			<ul class="style1">
-				<li class="first">
-					<h3>엠포스 마케팅본부 프로</h3>
-					<p>
-						재직 기간 : 2019.06 ~ (재직중)
-					<br>담당 광고주 : LGU+, OK저축은행
-					<br>참여 TF : 현대카드 2021년 온라인마케팅 제안 TF, 우리카드 2020년 온라인마케팅 제안 TF
-					</p>
-				</li>
-				<li>
-					<h3>해커스교육그룹 공무원기획 마케팅 프로</h3>
-					<p>
-						재직 기간 : 2015.12 ~ 2019.06
-					<br>담당 브랜드 : 18개 브랜드 중 11개 브랜드 온라인광고 담당
-					<br>참여 프로젝트 : 2018년 공인중개사 코엑스 설명회, 2017년 해커스어학원 토스/오픽 10일 끝장반 TF, 2017년 해커스어학원 여름방학 무료예약 등 다수
-					</p>
-				</li>
-			</ul>
+			<a href="#" class="image image-full"><img :src="pictures.pic2" alt="" /></a>
 		</div>
 
-</div>
-
+	</div>
 
 </template>
 
 <script>
+
 export default {
 
+	data() {
+		return {
+			pictures : {
+				pic2 : 'https://i.ibb.co/frqs7J0/E-mailing-Marketing-campaign-key-with-mailing-envelope-icon-on-laptop-keyboard-Included-clipping-pat.jpg'
+			}
+		}
+	},
+	methods : {
+		onsubmit(e) {
+			console.log(e)
+		}
+	}	
 }
+
+
+
 </script>
 
 <style>

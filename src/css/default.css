@@ -7,7 +7,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #4a8c6f;
+	background: #5c8f9c;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 400;
@@ -114,7 +114,7 @@ ul.style1 li
 {
 	overflow: hidden;
 	display: block;
-	padding: 1.00em 0em;
+	padding: 0.70em 0em;
 	border-top: 1px solid #ababab;
 }
 
@@ -131,10 +131,10 @@ ul.style1 .image-left
 
 ul.style1 h3
 {
-	padding: 1.2em 0em 1em 0em;
+	padding: 1.0em 0em 1.0em 0em;
 	letter-spacing: 0.10em;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: 600;
 	color: #454445;
 }
@@ -226,13 +226,13 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .title
 {
-	margin-bottom: 3em;
+	margin-bottom: 2.0em;
 }
 
 .title h2
 {
 	font-weight: 400;
-	font-size: 1.9em;
+	font-size: 1.8em;
 	color: #323232;
 }
 
@@ -395,6 +395,7 @@ button {
 	margin : 15 px 0 15px 0;
 	padding : 10px 15px;
 	font-size: 14px;
+	font-weight: 600;
 	line-height: 1.5;
 	border : 1px solid #cccccc;
 
@@ -457,6 +458,10 @@ button {
 #stwo-col .sbox2 p a
 {
 	font-size: 0.88em;
+}
+
+.chart{
+	padding-top: 50px;
 }
 
 
@@ -569,9 +574,10 @@ button {
 	float: none;
 	width: 300px;
 	}
-#stwo-col .sbox2{
+	#stwo-col .sbox2{
 	padding-top: 30px;
 	float: none;
 	width: 300px;
 	}
+
 }

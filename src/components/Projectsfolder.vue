@@ -7,11 +7,10 @@
 			</slide>
 
 			<slide>
-				slide 2
+				<project2 />
 			</slide>
 
-
-		<hooper-pagination slot="hooper-addons"></hooper-pagination>
+		<hooper-pagination slot="hooper-addons" mode="fraction"></hooper-pagination>
 		</hooper>
 	</div>
 
@@ -20,12 +19,14 @@
 <script>
 
 import project1 from './Project1.vue'
+import project2 from './Project2.vue'
 import {Hooper, Slide, Pagination as HooperPagination} from 'hooper';
 
 export default {
 
 	components : {
 		project1,
+		project2,
 		Hooper,
 		Slide,
 		HooperPagination

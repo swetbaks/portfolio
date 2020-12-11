@@ -11,15 +11,15 @@
 					<ul class="style2">
 						<li>
 							<p>Google Analytics</p>
-							<progress-bar bar-color="#c14b76" size="medium" :val="ga_increasing_pct" :text="ga_increasing_pct + '%'" />
+							<progress-bar bar-color="#cd5c5c" size="medium" :val="ga_increasing_pct" :text="ga_increasing_pct + '%'" />
 						</li>
 						<li>
 							<p>Google Tagmanager</p>
-							<progress-bar bar-color="#c14b76" size="medium" :val="gtm_increasing_pct" :text="gtm_increasing_pct + '%'" />
+							<progress-bar bar-color="#cd5c5c" size="medium" :val="gtm_increasing_pct" :text="gtm_increasing_pct + '%'" />
 						</li>
 						<li>
 							<p>Kochava</p>
-							<progress-bar bar-color="#c14b76" size="medium" :val="ko_increasing_pct" :text="ko_increasing_pct + '%'" />
+							<progress-bar bar-color="#cd5c5c" size="medium" :val="ko_increasing_pct" :text="ko_increasing_pct + '%'" />
 						</li>
 					</ul>
 				</div>
@@ -28,15 +28,15 @@
 					<ul class="style2">
 						<li>
 							<p>JavaScript</p>
-							<progress-bar bar-color="#c14b76" size="medium" :val="java_increasing_pct" :text="java_increasing_pct + '%'" />
+							<progress-bar bar-color="#cd5c5c" size="medium" :val="java_increasing_pct" :text="java_increasing_pct + '%'" />
 						</li>
 						<li>
 							<p>Vue.js</p>
-							<progress-bar bar-color="#c14b76" size="medium" :val="vue_increasing_pct" :text="vue_increasing_pct + '%'" />
+							<progress-bar bar-color="#cd5c5c" size="medium" :val="vue_increasing_pct" :text="vue_increasing_pct + '%'" />
 						</li>
 						<li>
 							<p>MySql</p>
-							<progress-bar bar-color="#c14b76" size="medium" :val="sql_increasing_pct" :text="sql_increasing_pct + '%'" />
+							<progress-bar bar-color="#cd5c5c" size="medium" :val="sql_increasing_pct" :text="sql_increasing_pct + '%'" />
 						</li>
 					</ul>
 				</div>

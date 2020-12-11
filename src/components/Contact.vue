@@ -35,7 +35,7 @@ export default {
 	data() {
 		return {
 			pictures : {
-				pic2 : 'https://i.ibb.co/frqs7J0/E-mailing-Marketing-campaign-key-with-mailing-envelope-icon-on-laptop-keyboard-Included-clipping-pat.jpg'
+				pic2 : 'https://i.ibb.co/rMSG7n7/E-mailing-Marketing-campaign-key-with-mailing-envelope-icon-on-laptop-keyboard-Included-clipping-pat.jpg'
 			}
 		}
 	},

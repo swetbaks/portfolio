@@ -14,6 +14,7 @@
     "core-js": "^2.6.12",
     "echarts": "^5.0.0",
     "hooper": "^0.3.4",
+    "pure-vue-chart": "^0.4.0",
     "vue": "^2.6.12",
     "vue-echarts": "^5.0.0-beta.0",
     "vue-router": "^3.4.9",

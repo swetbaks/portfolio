@@ -4,7 +4,7 @@
 
         <div id="content">
 				<div class="title">
-					<h2>Contact Points</h2>
+					<h2>Contact Point</h2>
 					<span class="byline">아래 항목을 입력하면 제게 이메일을 보낼 수 있습니다.</span>
 				</div>
 

@@ -2,14 +2,14 @@
   "name": "portfolio-project",
   "version": "1.0.0",
   "description": "portfolio will be regularly updated in the future.",
-  "homepage": "http://jeongkc.github.io/marketing-portfolio",
+  "homepage": "http://swetbaks.github.io/portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --progress --history-api-fallback",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Jeongkc",
   "license": "ISC",

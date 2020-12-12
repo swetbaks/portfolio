@@ -373,7 +373,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	float: left;
 	width: 500px;
 	padding: 50px;
-	background-color: #F3F3F3;
 }
 
 input[type=text] {
@@ -565,7 +564,7 @@ form li {
 		left : 3px;
 		height : auto;
 		letter-spacing : 0.03em;
-		font-size : 11px
+		font-size : 10px
 	}
 	#sidebar{
 		max-width: 90%;

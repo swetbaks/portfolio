@@ -3,7 +3,7 @@
     <div id="header-wrapper">
     <div id="header" class="container">
         <div id="logo">
-            <h1><a href="/"><strong>정권채 포트폴리오</strong></a></h1>
+            <h1><a href="/portfolio"><strong>정권채 포트폴리오</strong></a></h1>
         </div>
 
 		<div id="menu">

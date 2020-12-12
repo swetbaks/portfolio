@@ -1,0 +1,45 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "portfolio will be regularly updated in the future.",
+  "homepage": "http://jeongkc.github.io/marketing-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --progress --history-api-fallback",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Jeongkc",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.6.12",
+    "fusioncharts": "^3.16.0",
+    "hooper": "^0.3.4",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "vue-simple-progress": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.2",
+    "style-loader": "^2.0.0",
+    "svg-loader": "0.0.2",
+    "svg-url-loader": "^7.1.1",
+    "terser-webpack-plugin": "^5.0.3",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

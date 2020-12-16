@@ -13,10 +13,10 @@ const router = new VueRouter({
     mode : 'history',
     routes : [
     {path : '/', component : Home},
-    {path : '*/portfolio', component : Home, redirect: '/'},
-    {path : '*/projects', component : Projectsfolder},
-    {path : '*/skills', component : Skills},
-    {path : '*/contact', component : Contact},
+    {path : '/portfolio', component : Home, redirect : '/'},
+    {path : '/projects', component : Projectsfolder},
+    {path : '/skills', component : Skills},
+    {path : '/contact', component : Contact},
     {path : '*', component : Notfound}
 ]})
 

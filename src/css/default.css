@@ -9,7 +9,7 @@ body
 	padding: 0px;
 	background: #5c8f9c;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: 400;
 	color: #515151;
 }	
@@ -568,7 +568,7 @@ form li {
 	}
 	#sidebar{
 		max-width: 90%;
-		padding: 20px;
+		padding: 10px;
 		float: none;
 	}
 	ul.style1 li{
